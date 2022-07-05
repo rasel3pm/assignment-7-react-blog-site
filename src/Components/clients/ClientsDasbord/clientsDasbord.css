@@ -1,0 +1,53 @@
+.clientDasbord-inner {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 50px;
+}
+
+.navarea .profile h4 {
+    color: aliceblue;
+}
+
+.client-info {
+    padding: 50px;
+}
+
+.client-info h4 {
+    text-align: center;
+    color: white;
+}
+
+.client-info p {
+    color: rgb(168, 171, 173);
+    text-align: center;
+}
+
+.navarea {
+    border-right: 2px solid white;
+}
+
+.profile-service ul li {
+    padding: 7px;
+    background-color: #2D3748;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-left: 2px solid rgb(20, 214, 36);
+}
+
+.profile-service ul li a {
+    color: aliceblue;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .clientDasbord-inner {
+        grid-template-columns: 2fr 10fr;
+        padding: 20px;
+    }
+    .client-info {
+        padding: 20px;
+    }
+    .navarea {
+        border-right: 1px solid white;
+    }
+}

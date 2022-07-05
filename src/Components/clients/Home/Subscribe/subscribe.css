@@ -1,0 +1,16 @@
+.subscribe-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #2D3748;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.subscribe-title {
+    color: #55efc4;
+}
+
+.subscribe-icon .fa-rocket {
+    font-size: 90px;
+    color: #55efc4;
+}

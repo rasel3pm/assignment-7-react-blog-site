@@ -1,0 +1,17 @@
+.sidebar {
+    color: rgb(175, 179, 182);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidebar h5 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li {
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #2D3748;
+    border-radius: 5px;
+    border-left: 2px solid rgb(11, 248, 62);
+}

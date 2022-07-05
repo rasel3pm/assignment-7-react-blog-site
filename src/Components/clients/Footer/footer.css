@@ -1,0 +1,32 @@
+.footer {
+    background-color: #2D3748;
+    padding: 40px 110px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-brand p {
+    color: rgb(183, 185, 187);
+}
+
+.Quick-Links,
+.Legal-Stuff,
+.Social-Media {
+    color: rgb(183, 185, 187);
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    .footer {
+        padding: 30px;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}

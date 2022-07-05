@@ -1,0 +1,25 @@
+.navs {
+    background-color: #394150 !important;
+    color: white;
+    min-height: 80px;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+}
+
+.isActive {
+    background-color: #212836;
+    padding: 3px 15px;
+    font-size: 18px;
+    transition: all 0.5s;
+    color: rgb(202, 205, 207);
+    border-radius: 5px;
+}
+
+.notActive {
+    color: rgb(226, 222, 222);
+    padding: 0 10px;
+    font-size: 18px;
+}

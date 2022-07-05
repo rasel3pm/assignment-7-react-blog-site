@@ -1,0 +1,9 @@
+.layoutcontainer {
+    padding: 30px 115px;
+}
+
+@media only screen and (max-width:600px) {
+    .layoutcontainer {
+        padding: 20px 10px;
+    }
+}
